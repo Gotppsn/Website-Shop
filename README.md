@@ -1,6 +1,3 @@
-Here's a comprehensive `README.md` template for your PHP and MySQL-based website shop project. This template includes sections for project description, features, installation, usage, and more.
-
-```markdown
 # Website Shop - Product Showcase and User Management
 
 This project is a simple website shop where users can add products, view them on the webpage, and manage user registration and login. It is built using PHP for the backend and MySQL for the database.
@@ -126,10 +123,6 @@ If you would like to contribute to this project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+\```
 
-### Additional Notes:
-
-1. Update the repository URL in the `git clone` command with your actual GitHub repository link.
-2. Ensure that the database schema (`shop_db.sql`) is included in the `database/` folder.
-3. You can customize the project title, description, and features based on your specific implementation.
+---
