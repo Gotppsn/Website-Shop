@@ -6,13 +6,18 @@ This project is a simple website shop where users can add products, view them on
 
 - Add new products to display on the website
 - User registration and login system
-- Product management for administrators
-- Responsive design for better user experience
-- Secure authentication with hashed passwords
 
 ## Screenshots
+Login page
+![image](https://github.com/user-attachments/assets/b5c16009-40ef-4b25-a6e8-f49e63ef3a95)
+Register Page
+![image](https://github.com/user-attachments/assets/bb027cba-3ec6-4d14-8c95-d9d525babe01)
+Products Page
+![image](https://github.com/user-attachments/assets/67bbdc36-a0a2-41c6-98dd-40c00c08298b)
+Add Products
+![image](https://github.com/user-attachments/assets/f7b9c99a-1211-4f0e-bf9e-e16b15605bc8)
 
-<!-- You can add screenshots of your project here for a visual overview -->
+
 
 ## Technologies Used
 
@@ -40,7 +45,7 @@ Ensure you have the following software installed:
    If you are using Git, clone this repository by running the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Gotppsn/Website-Shop.git
    ```
 
    Or download the ZIP file from GitHub and extract it to your server directory.
@@ -55,8 +60,8 @@ Ensure you have the following software installed:
 3. **Create a MySQL Database**
 
    - Open [phpMyAdmin](http://localhost/phpmyadmin).
-   - Create a new database named `shop_db`.
-   - Import the provided SQL file (`shop_db.sql`) located in the `database/` folder into your newly created database.
+   - Create a new database named `PanupolOP`.
+   - Import the provided SQL file (`PanupolOP.sql`) located in the `database/` folder into your newly created database.
 
 4. **Configure the Database Connection**
 
@@ -67,7 +72,7 @@ Ensure you have the following software installed:
    $servername = "localhost";
    $username = "root";      // Change if you're not using the default 'root' user
    $password = "";          // Change if you have a MySQL password
-   $dbname = "shop_db";     // Ensure this matches the database name you created
+   $dbname = "PanupolOP";     // Ensure this matches the database name you created
    ?>
    ```
 
@@ -95,19 +100,28 @@ Ensure you have the following software installed:
 ## Folder Structure
 
 ```bash
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── config.php
+├── css/
+│   └── style.css
+│   └── responsive.css
+├── data/       #
+├── fonts/      # (Fonts used in the project)
+├── img/        # (Images used in the project)
+├── inc/        # (Include files for modular PHP code)
+├── js/         # (JavaScript files, if any)
+├── addproduct.php
+├── check_login.php
+├── confirm.php
+├── connect.php
+├── contact.php
 ├── index.php
 ├── login.php
+├── logout.php
+├── product.php
+├── r_addproduct.php
+├── r_login.php
+├── r_register.php
 ├── register.php
-├── add_product.php
-├── product_list.php
-├── database/
-│   └── shop_db.sql   # Database dump file
-└── README.md
+
 ```
 
 ## Contributing
@@ -119,10 +133,3 @@ If you would like to contribute to this project, please follow these steps:
 3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature-branch-name`).
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-\```
-
----
